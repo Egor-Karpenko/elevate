@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Студія Звукозапису</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- Шапка сайту -->
+    <header class="header">
+      <div class="logo"><img src="images/logo.png" alt="" /></div>
+      <nav class="navbar">
+        <a href="#home">Головна</a>
+        <a href="#services">Послуги</a>
+        <a href="#about">Про нас</a>
+        <a href="#contact">Контакти</a>
+      </nav>
+    </header>
+
+    <!-- Головна секція -->
+    <section id="home" class="hero">
+      <video autoplay muted loop class="video-background">
+        <source src="video.mp4" type="video/mp4" />
+      </video>
+      <h1>ELEVATE MUSIC LABEL</h1>
+
+      <p>
+        Працюй з професіоналами
+        <a
+          href="https://t.me/elevate_music_label"
+          class="contact-button"
+          target="_blank"
+          >Зв'язатись з нами</a
+        >
+      </p>
+    </section>
+
+    <!-- Блок Послуги -->
+    <section id="services" class="services">
+      <h2>Наші Послуги</h2>
+      <div class="services-grid">
+        <div class="service-item">
+          <p>Запис</p>
+          <span>
+            700грн/год , також є можливість орендувати студію на добу</span
+          >
+        </div>
+
+        <div class="service-item">
+          <p>Зведення</p>
+
+          <span> Зведення професійного рівня </span>
+        </div>
+
+        <div class="service-item">
+          <p>Мастеринг</p>
+
+          <span> Мастеринг робимо на студії наших партнерів в Німечині </span>
+        </div>
+
+        <div class="service-item">
+          <p>Пісня під ключ</p>
+
+          <span> Ми можемо створити пісню для тебе в будь якому стилі </span>
+        </div>
+        <div class="service-item">
+          <p>Текст на замовлення</p>
+          <span> Напишемо для тебе унікальний текст під будь що </span>
+        </div>
+
+        <div class="service-item">
+          <p>Аранжування</p>
+          <span> Аранжування це дуже важливий аспект в піснях </span>
+        </div>
+        <div class="service-item">
+          <p>Дистрибуція</p>
+          <span>
+            Ми поширемо твій трек на всі майданчики та стрімінгові сервіси
+          </span>
+        </div>
+
+        <div class="service-item">
+          <p>Реклама</p>
+          <span>
+            Якщо ти поки що не маєш свого слухача, ми допоможимо його знайти
+          </span>
+        </div>
+
+        <div class="service-item">
+          <p>Кліп під ключ</p>
+          <span>
+            Візуалізація пісні це дуже важливий аспект , ми допоможимо тобі це
+            зробити професійно.
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>Про нас</h2>
+      <p>
+        Ми – професійний музичний лейбл з багаторічним досвідом у сфері
+        звукозапису та продакшну. Наша команда складається з талановитих
+        фахівців, готових допомогти вам на кожному етапі створення музики – від
+        зародження ідеї до її успішного релізу. Пропонуємо повний цикл послуг,
+        включаючи запис, зведення, мастеринг, аранжування та продюсування. Ми
+        створюємо атмосферу, де кожен артист може розкрити свій творчий
+        потенціал, і допомагаємо знайти унікальне звучання, яке приверне увагу
+        слухачів. Наші двері відкриті для артистів різних жанрів та рівнів
+        підготовки. Незалежно від того, чи ви досвідчений музикант або тільки
+        розпочинаєте свою кар'єру, ми допоможемо втілити вашу музичну ідею в
+        реальність. Завдяки передовому обладнанню та сучасним студійним
+        приміщенням, ми гарантуємо високу якість запису, яка відповідає світовим
+        стандартам індустрії. Долучайтесь до нас і створюйте музику, яка буде
+        підкорювати серця!
+      </p>
+
+      <!-- Блок з прикладами пісень -->
+      <div class="audio-examples">
+        <h3>Приклади пісень</h3>
+
+        <!-- Приклад пісні 1 -->
+        <div class="audio-item">
+          <p>Пісня 1</p>
+          <audio controls>
+            <source src="/Song1.mp3" type="audio/mp3" />
+            Ваш браузер не підтримує аудіо.
+          </audio>
+        </div>
+
+        <!-- Приклад пісні 2 -->
+        <div class="audio-item">
+          <p>Пісня 2</p>
+          <audio controls>
+            <source src="/" type="audio/mpeg" />
+            Ваш браузер не підтримує аудіо.
+          </audio>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок Контакти -->
+    <section id="contact" class="contact">
+      <h2>Контакти</h2>
+      <p>Адреса: вул. Михайла Коцюбинського, 9 , Київ</p>
+      <p>Телефон: +38 (050) 1111111111</p>
+      <a
+        href="https://t.me/elevate_music_label"
+        class="contact-button"
+        target="_blank"
+        >Зв'язатись з нами</a
+      >
+    </section>
+
+    <!-- Підвал сайту -->
+    <footer class="footer">
+      <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+      </div>
+      <p>&copy; 2024 Студія Звукозапису. Всі права захищені.</p>
+    </footer>
+    <script src="scrypt.js"></script>
+  </body>
+</html>
